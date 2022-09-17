@@ -48,17 +48,10 @@ module.exports = {
   },*/
   networks: {
     testnet: {
-      host: '127.0.0.1', // Localhost (default: none)
-      port: 8545, // Standard Ethereum port (default: none)
-      network_id: '*', // Any network (default: none)
-      skipDryRun: true,
-      gasPrice: 128,
-      production: true
+        host: "localhost",
+        port: 8545,        // Default web3-gear port
+        network_id: "*"    // Match any network id
     }
-  },
-  // Set default mocha options here, use special reporters etc.
-  mocha: {
-    // timeout: 100000
   },
 
   // Configure your compilers
